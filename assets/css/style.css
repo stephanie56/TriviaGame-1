@@ -1,0 +1,87 @@
+body {
+    /* background-image: ("..assets/images/background.jpg") */
+    background-image: url("https://hdwallsource.com/img/2014/7/beautiful-beach-background-17581-18141-hd-wallpapers.jpg");
+}
+.gamebox {
+    background-color:;
+    margin: 10px 200px 0px 200px; 
+    width: 960px;
+}
+.TTT {
+    font-size: 200%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#TIME {
+    font-size: 150%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q1, #q2, #q3, #q4, #q5 {
+    font-size: 150%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q1a, #q1b, #q1c, #q1d {
+    font-size: 110%;
+    font-weight: bold;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q2a, #q2b, #q2c, #q2d {
+    font-size: 110%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q3a, #q3b, #q3c, #q3d {
+    font-size: 110%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q4a, #q4b, #q4c, #q4d {
+    font-size: 110%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q5a, #q5b, #q5c, #q5d {
+    font-size: 110%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q6 {
+    font-size: 125%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#q6a {
+    font-size: 125%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+}
+#postpoints {
+    font-size: 125%;
+    color: goldenrod;
+    background-color: purple;
+    padding: 10px;
+    text-align: center;   
+}
