@@ -1,16 +1,18 @@
 /* TIMER COUNTDOWN below */
-$('#TIME').innerHTML = "Time Remaining " + 00 + ":" + 30;
+$(document).ready(function()) {
+   
+
+$("#TIME").innerHTML = "Time Remaining " + 00 + ":" + 30;
     startTimer();
 
 function startTimer() {
-  var presentTime = $('#TIME').innerHTML;
+  var presentTime = $("#TIME").innerHTML;
   var timeArray = presentTime.split(/[:]+/);
   var m = timeArray[0];
   var s = checkSecond((timeArray[1] - 1));
   if(s==59){m=m-1}
     
-  $('#TIME').innerHTML =
-    m + ":" + s;
+  $("#TIME").innerHTML = m + ":" + s;
   setTimeout(startTimer, 1000);
 }
 
@@ -35,9 +37,11 @@ var questionSix = $("#q4Six");
 var questionLoop = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix];
 
 function submitted () {
-    for (var i = 0; i < questionLoop.length; i++)
+    for (var i = 0; i < questionLoop.length; i++);
+      console.log(submitted)  
 
-        } 
-        var postScore = Math.round((score/6)*100);
+            }    
+        
+        var postScore = Math.round((points/6)*100);
         $("#postpoints").innerHTML +- postScore;
-}
+
