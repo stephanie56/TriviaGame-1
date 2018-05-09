@@ -38,9 +38,11 @@ var questionLoop = [questionOne, questionTwo, questionThree, questionFour, quest
 
 function submitted () {
     for (var i = 0; i < questionLoop.length; i++);
-
+     
+    }
 
      
     var postScore = Math.round((points/6)*100); 
         $("#postpoints").innerHTML +- postScore;
-}
+      
+    };

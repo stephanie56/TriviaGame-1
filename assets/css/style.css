@@ -3,7 +3,6 @@ body {
     background-image: url("https://hdwallsource.com/img/2014/7/beautiful-beach-background-17581-18141-hd-wallpapers.jpg");
 }
 .gamebox {
-    background-color:;
     margin: 10px 200px 0px 200px; 
     width: 960px;
     animation-name: gameanima;
@@ -32,7 +31,7 @@ body {
     padding: 10px;
     text-align: center;
 }
-#q1a, #q1b, #q1c, #q1d {
+#q1aa, #q1bb, #q1cc, #q1dd {
     font-size: 110%;
     font-weight: bold;
     color: goldenrod;
@@ -40,28 +39,28 @@ body {
     padding: 10px;
     text-align: center;
 }
-#q2a, #q2b, #q2c, #q2d {
+#q2aa, #q2bb, #q2cc, #q2dd {
     font-size: 110%;
     color: goldenrod;
     background-color: purple;
     padding: 10px;
     text-align: center;
 }
-#q3a, #q3b, #q3c, #q3d {
+#q3aa, #q3bb, #q3cc, #q3dd {
     font-size: 110%;
     color: goldenrod;
     background-color: purple;
     padding: 10px;
     text-align: center;
 }
-#q4a, #q4b, #q4c, #q4d {
+#q4aa, #q4bb, #q4cc, #q4dd {
     font-size: 110%;
     color: goldenrod;
     background-color: purple;
     padding: 10px;
     text-align: center;
 }
-#q5a, #q5b, #q5c, #q5d {
+#q5aa, #q5bb, #q5cc, #q5dd {
     font-size: 110%;
     color: goldenrod;
     background-color: purple;
@@ -75,7 +74,7 @@ body {
     padding: 10px;
     text-align: center;
 }
-#q6a {
+#q6aa {
     font-size: 125%;
     color: goldenrod;
     background-color: purple;
@@ -94,12 +93,10 @@ body {
 
 @keyframes gameanima {
     0% {
-        background-color:;
         margin: 50px 400px 0px 400px; 
         width: 460px;
     }
     100% {
-        background-color:;
         margin: 10px 200px 0px 200px; 
         width: 960px;
     }
@@ -120,5 +117,5 @@ body {
         padding: 10px;
         text-align: center;
     }
-    
+}
         
