@@ -1,5 +1,5 @@
 /* TIMER COUNTDOWN below */
-$(document).ready(function()) {
+/*$(document).ready(function()) {
    
 
 $("#TIME").innerHTML = "Time Remaining " + 00 + ":" + 30;
@@ -27,21 +27,20 @@ function checkSecond(sec) {
 
 var points = 0;
 
-var questionOne = $("#q1one");
-var questionTwo = $("#q2two");
-var questionThree = $("#q3three");
-var questionFour = $("#q4four");
-var questionFive = $("#q4five");
-var questionSix = $("#q4Six");
+var questionOne = $("#q1a");
+var questionTwo = $("#q2a");
+var questionThree = $("#q3a");
+var questionFour = $("#q4a");
+var questionFive = $("#q5a");
+var questionSix = $("#q6a");
 
 var questionLoop = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix];
 
 function submitted () {
     for (var i = 0; i < questionLoop.length; i++);
-      console.log(submitted)  
 
-            }    
-        
-        var postScore = Math.round((points/6)*100);
+
+     
+    var postScore = Math.round((points/6)*100); 
         $("#postpoints").innerHTML +- postScore;
-
+}

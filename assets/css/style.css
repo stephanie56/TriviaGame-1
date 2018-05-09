@@ -6,6 +6,8 @@ body {
     background-color:;
     margin: 10px 200px 0px 200px; 
     width: 960px;
+    animation-name: gameanima;
+    animation-duration: 10s;
 }
 .TTT {
     font-size: 200%;
@@ -13,6 +15,8 @@ body {
     background-color: purple;
     padding: 10px;
     text-align: center;
+    animation-name: TTTanima;
+    animation-duration: 10s;
 }
 #TIME {
     font-size: 150%;
@@ -85,3 +89,36 @@ body {
     padding: 10px;
     text-align: center;   
 }
+
+/* ANIMATION */
+
+@keyframes gameanima {
+    0% {
+        background-color:;
+        margin: 50px 400px 0px 400px; 
+        width: 460px;
+    }
+    100% {
+        background-color:;
+        margin: 10px 200px 0px 200px; 
+        width: 960px;
+    }
+}
+@keyframes TTTanima {
+    0% {
+        font-size: 500%;
+        color: white;
+        background-color: grey;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    100% {
+        font-size: 200%;
+        color: goldenrod;
+        background-color: purple;
+        padding: 10px;
+        text-align: center;
+    }
+    
+        
