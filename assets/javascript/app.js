@@ -1,6 +1,4 @@
 /* TIMER COUNTDOWN below */
-/*$(document).ready(function()) {
-   
 
 $("#TIME").innerHTML = "Time Remaining " + 00 + ":" + 30;
     startTimer();
@@ -12,7 +10,8 @@ function startTimer() {
   var s = checkSecond((timeArray[1] - 1));
   if(s==59){m=m-1}
     
-  $("#TIME").innerHTML = m + ":" + s;
+  $("#TIME").innerHTML = 
+  m + ":" + s;
   setTimeout(startTimer, 1000);
 }
 
@@ -38,11 +37,11 @@ var questionLoop = [questionOne, questionTwo, questionThree, questionFour, quest
 
 function submitted () {
     for (var i = 0; i < questionLoop.length; i++);
-     
+        $("#button").click(submitted);
     }
 
      
     var postScore = Math.round((points/6)*100); 
         $("#postpoints").innerHTML +- postScore;
-      
-    };
+
+    
