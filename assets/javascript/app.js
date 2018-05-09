@@ -25,7 +25,7 @@ function checkSecond(sec) {
 
 var points = 0;
 
-var questionOne = $("q1a");
+var questionOne = $("#q1one");
 var questionTwo = $("#q2two");
 var questionThree = $("#q3three");
 var questionFour = $("#q4four");
