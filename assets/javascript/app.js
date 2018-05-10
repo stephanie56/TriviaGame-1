@@ -1,25 +1,25 @@
 /* TIMER COUNTDOWN below */
 
-$("#TIME").innerHTML = "Time Remaining " + 00 + ":" + 30;
-    startTimer();
+// $("#TIME").innerHTML = "Time Remaining " + 00 + ":" + 30;
+//     startTimer();
 
-function startTimer() {
-  var presentTime = $("#TIME").innerHTML;
-  var timeArray = presentTime.split(/[:]+/);
-  var m = timeArray[0];
-  var s = checkSecond((timeArray[1] - 1));
-  if(s==59){m=m-1}
+// function startTimer() {
+//   var presentTime = $("#TIME").innerHTML;
+// //   var timeArray = presentTime.split(/[:]+/);
+//   var m = timeArray[0];
+//   var s = checkSecond((timeArray[1] - 1));
+//   if(s==59){m=m-1}
     
-  $("#TIME").innerHTML = 
-  m + ":" + s;
-  setTimeout(startTimer, 1000);
-}
+//   $("#TIME").innerHTML = 
+//   m + ":" + s;
+//   setTimeout(startTimer, 1000);
+// }
 
-function checkSecond(sec) {
-  if (sec < 10 && sec >= 0) {sec = "0" + sec}; 
-  if (sec < 0) {sec = "59"};
-  return sec;
-}
+// function checkSecond(sec) {
+//   if (sec < 10 && sec >= 0) {sec = "0" + sec}; 
+//   if (sec < 0) {sec = "59"};
+//   return sec;
+// }
 /* TIMER COUNTDOWN above */
 
 /* GAME QUESTIONS */ 
@@ -35,11 +35,13 @@ var questionSix = $("#q6a");
 
 var questionLoop = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix];
 
-function submitted () {
-    for (var i = 0; i < questionLoop.length; i++);
-        $("#button").click(submitted);
+$("#7aa").on("click", function() {
+    for (var i = 0; i < questionLoop.length; i++) {
+        console.log(i)
+        console.log(questionLoop[i])
     }
-
+    
+});
      
     var postScore = Math.round((points/6)*100); 
         $("#postpoints").innerHTML +- postScore;
